@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutionException;
 @Mixin(ZAUtil.class)
 public class ZAUtilMixin {
     @Inject(method = "canSpawnTrace(Lnet/minecraft/world/World;DDD)Z",
-            at = @At(value = "INVOKE", target = "Lnet/minecraft/world/World;isLoaded(Lnet/minecraft/util/math/BlockPos;)Z", ordinal = 0),
+            at = @At(value = "HEAD"),
             cancellable = true,
             remap = false)
     private static void zombieawarenessfix$levelcheck(World world, double x, double y, double z, CallbackInfoReturnable<Boolean> cir) throws ExecutionException, InterruptedException {
