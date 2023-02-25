@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.telepathicgrunt.zombieawarenessfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "zombieawarenessfix.refmap.json",
+  "mixins": [
+    "ZAUtilMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,1 @@
+fixed item frame bug in zombie awareness
