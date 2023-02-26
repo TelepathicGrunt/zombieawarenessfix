@@ -38,3 +38,9 @@ Fixed item frame bug in Zombie Awareness
     versionRange="[1.16.5,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.zombieawarenessfix]]
+    modId="zombieawareness"
+    mandatory=true
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
